@@ -1,0 +1,5 @@
+{
+  "name": "Google Home Local Bridge",
+  "render_readme": true,
+  "homeassistant": "2024.1.0"
+}

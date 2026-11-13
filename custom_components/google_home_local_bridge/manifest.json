@@ -1,0 +1,12 @@
+{
+  "domain": "google_home_local_bridge",
+  "name": "Google Home Local Bridge",
+  "version": "1.0.0",
+  "documentation": "https://github.com/example/google_home_local_bridge",
+  "issue_tracker": "https://github.com/example/google_home_local_bridge/issues",
+  "codeowners": ["@example"],
+  "config_flow": true,
+  "iot_class": "cloud_polling",
+  "requirements": ["aiohttp>=3.9.0"],
+  "integration_type": "device"
+}

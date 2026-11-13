@@ -1,0 +1,45 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Choose connection method",
+        "data": {
+          "auth_mode": "Authentication mode"
+        }
+      },
+      "local": {
+        "title": "Connect to local bridge",
+        "data": {
+          "host": "Host",
+          "port": "Port"
+        }
+      },
+      "cloud": {
+        "title": "Connect to Google Cloud",
+        "data": {
+          "access_token": "Access token",
+          "refresh_token": "Refresh token",
+          "client_id": "Client ID",
+          "client_secret": "Client secret"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect",
+      "invalid_auth": "Invalid authentication"
+    },
+    "abort": {
+      "already_configured": "Device already configured"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options",
+        "data": {
+          "scan_interval": "Scan interval (seconds)"
+        }
+      }
+    }
+  }
+}
